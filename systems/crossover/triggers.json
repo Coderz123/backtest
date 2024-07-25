@@ -1,0 +1,28 @@
+{
+  "ENABLED": true,
+  "BUY":[
+    { "Name":"B1", "Ind1": "SMA10", "Verb":"above", "Ind2":"SMA20" }
+  ],
+  "SELL":[
+    { "Name":"S1", "Ind1": "SMA10", "Verb":"below", "Ind2":"SMA20" }
+  ],
+  "BUY_OPERATIONS":[
+    { "Name":"BUY1", "Ind1":"B1", "Verb":"AND", "Ind2":"B1" }
+  ],
+  "SELL_OPERATIONS":[
+    { "Name":"SELL1", "Ind1":"S1", "Verb":"AND", "Ind2":"S1" }
+  ],
+  "BUY_COLUMN":"BUY1",
+  "SELL_COLUMN":"SELL1",
+  "MAX_BUY": 1,
+  "MAX_SELL": 1,
+  "BUY_AND_SELL": "BOTH",
+  "STOP_LOSS_TYPE":"TRAILING",
+  "TIMING":[
+    {
+      "START":"0800",
+      "END":"1400",
+      "DAYS":[1,2,3,4,5]
+    }
+  ]
+}

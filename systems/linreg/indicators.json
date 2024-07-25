@@ -1,0 +1,137 @@
+{
+	"Indicators": [
+		{
+			"indName": "BOL13",
+			"name": "bbands",
+			"timeFrame": "30",
+			"fullName": "Bollinger Bands",
+			"type": 1,
+			"inputs": 1,
+			"options": 2,
+			"outputs": 3,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period",
+				"stddev"
+			],
+			"optionValues": [
+				13,2
+			],
+			"outputNames": [
+				"BBLower","BBMiddle","BBUpper"
+			]
+		},
+		{
+			"indName": "BOL20_2",
+			"name": "bbands",
+			"timeFrame": "30",
+			"fullName": "Bollinger Bands",
+			"type": 1,
+			"inputs": 1,
+			"options": 2,
+			"outputs": 3,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period",
+				"stddev"
+			],
+			"optionValues": [
+				20,2
+			],
+			"outputNames": [
+				"BB2Lower","BB2Middle","BB2Upper"
+			]
+		},{
+			"indName": "BOL20_3",
+			"name": "bbands",
+			"timeFrame": "30",
+			"fullName": "Bollinger Bands",
+			"type": 1,
+			"inputs": 1,
+			"options": 2,
+			"outputs": 3,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period",
+				"stddev"
+			],
+			"optionValues": [
+				20,3
+			],
+			"outputNames": [
+				"BB3Lower","BB3Middle","BB3Upper"
+			]
+		},{
+			"indName": "STDDEV",
+			"name": "stddev",
+			"timeFrame": "30",
+			"fullName": "Simple Moving Average",
+			"type": 1,
+			"inputs": 1,
+			"options": 1,
+			"outputs": 1,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period"
+			],
+			"optionValues": [
+				20
+			],
+			"outputNames": [
+				"STDDEV"
+			]
+		},
+		{
+			"indName": "TSF",
+			"name": "tsf",
+			"timeFrame": "30",
+			"fullName": "TIme Series Forecast",
+			"type": 1,
+			"inputs": 1,
+			"options": 1,
+			"outputs": 1,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period"
+			],
+			"optionValues": [
+				5
+			],
+			"outputNames": [
+				"TSF"
+			]
+		},
+		{
+			"indName": "RSI",
+			"name": "rsi",
+			"timeFrame": "30",
+			"fullName": "Relative Strength Index",
+			"type": 1,
+			"inputs": 1,
+			"options": 1,
+			"outputs": 1,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period"
+			],
+			"optionValues": [
+				14	
+			],
+			"outputNames": [
+				"RSI"
+			]
+		}
+	]
+}

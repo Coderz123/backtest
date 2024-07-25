@@ -1,0 +1,92 @@
+{
+	"Indicators": [
+		{
+			"indName": "SMA10",
+			"name": "sma",
+			"timeFrame": "30",
+			"fullName": "Simple Moving Average",
+			"type": 1,
+			"inputs": 1,
+			"options": 1,
+			"outputs": 1,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period"
+			],
+			"optionValues": [
+				10
+			],
+			"outputNames": [
+				"SMA10"
+			]
+		},
+		{
+			"indName": "SMA20",
+			"name": "sma",
+			"timeFrame": "30",
+			"fullName": "Simple Moving Average",
+			"type": 1,
+			"inputs": 1,
+			"options": 1,
+			"outputs": 1,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period"
+			],
+			"optionValues": [
+				20
+			],
+			"outputNames": [
+				"SMA20"
+			]
+		},
+		{
+			"indName": "SMA3",
+			"name": "sma",
+			"timeFrame": "30",
+			"fullName": "Simple Moving Average",
+			"type": 1,
+			"inputs": 1,
+			"options": 1,
+			"outputs": 1,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"Period"
+			],
+			"optionValues": [
+				3
+			],
+			"outputNames": [
+				"SMA3"
+			]
+		},
+		{
+			"indName": "MD12269",
+			"name": "macd",
+			"timeFrame": "30",
+			"fullName": "Moving Average CD",
+			"type": 1,
+			"inputs": 1,
+			"options": 3,
+			"outputs": 3,
+			"inputNames": [
+				"close"
+			],
+			"optionNames": [
+				"LongPeriod", "ShortPeriod", "Signal"
+			],
+			"optionValues": [
+				12, 26, 9
+			],
+			"outputNames": [
+				"MACD", "SIGNAL", "HIST"
+			]
+		}
+	]
+}

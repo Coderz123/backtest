@@ -1,0 +1,8 @@
+{
+  "BUY_EXIT":[
+    { "Name":"E1", "Ind1": "SMA10", "Verb":"below", "Ind2":"SMA20" }
+  ],
+  "SELL_EXIT":[
+    { "Name":"E2", "Ind1": "SMA10", "Verb":"above", "Ind2":"SMA20" }
+  ]
+}
